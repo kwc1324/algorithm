@@ -4,7 +4,7 @@ BIN_DIR=${PROJ_DIR}/bin
 SRC_DIR=${PROJ_DIR}/src
 INC_DIR=${PROJ_DIR}/include
 
-OBJS=${BUILD_DIR}/main.o ${BUILD_DIR}/bubble.o ${BUILD_DIR}/printAll.o ${BUILD_DIR}/selection.o
+OBJS=${BUILD_DIR}/main.o ${BUILD_DIR}/bubble.o ${BUILD_DIR}/printAll.o ${BUILD_DIR}/selection.o ${BUILD_DIR}/insertion.o ${BUILD_DIR}/quick.o
 
 all: ${BIN_DIR}/sort
 

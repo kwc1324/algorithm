@@ -16,9 +16,12 @@ int main()
     }
     printf("\n------------------------\n");
     printf("bubbleSort\n");
-   // bubbleSort(data);
+    //bubbleSort(data);
     printf("selectionSort\n");
-    selectionSort(data);
-
+    //selectionSort(data);
+    printf("insertionSort\n");
+    //insertionSort(data);
+    printf("quickSort\n");
+    quickSort(data, 0,1,6);
     return 0;
 }

@@ -7,5 +7,6 @@
 
 void printAll(int* data);
 void bubbleSort(int* data);
+void selectionSort(int* data);
 
 #endif

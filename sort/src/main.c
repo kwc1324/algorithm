@@ -15,7 +15,10 @@ int main()
         printf("%d, ", data[i]);
     }
     printf("\n------------------------\n");
-    bubbleSort(data);
-    
+    printf("bubbleSort\n");
+   // bubbleSort(data);
+    printf("selectionSort\n");
+    selectionSort(data);
+
     return 0;
 }

@@ -9,4 +9,5 @@ void huffmanTree(int* data, int* freq, int cnt)
         sum += freq[i];
         addToNode(sum, freq, data, i);
     }
+    calcCode();
 }

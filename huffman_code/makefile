@@ -4,7 +4,7 @@ INC_DIR=${PROJ_DIR}/include
 BIN_DIR=${PROJ_DIR}/bin
 SRC_DIR=${PROJ_DIR}/src
 
-OBJS=${BUILD_DIR}/main.o ${BUILD_DIR}/huffmanTree.o ${BUILD_DIR}/sort.o ${BUILD_DIR}/addToNode.o ${BUILD_DIR}/isFull.o ${BUILD_DIR}/isEmpty.o ${BUILD_DIR}/enque.o ${BUILD_DIR}/deque.o ${BUILD_DIR}/calcCode.o
+OBJS=${BUILD_DIR}/main.o ${BUILD_DIR}/huffmanTree.o ${BUILD_DIR}/sort.o ${BUILD_DIR}/addToNode.o ${BUILD_DIR}/isFull.o ${BUILD_DIR}/isEmpty.o ${BUILD_DIR}/enque.o ${BUILD_DIR}/deque.o ${BUILD_DIR}/calcCode.o ${BUILD_DIR}/findCode.o
 
 all: ${BIN_DIR}/ExeHuffman
 ${BIN_DIR}/ExeHuffman: ${OBJS}

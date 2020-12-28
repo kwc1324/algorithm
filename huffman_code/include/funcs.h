@@ -25,5 +25,6 @@ struct node* deque();
 void enque(struct node* v);
 int isFull();
 int isEmpty();
+void findCode(char c);
 
 #endif

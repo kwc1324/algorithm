@@ -7,8 +7,14 @@ int main()
     printf("Before heapify %d\n", data[1]);
     heapify(lastIdx);    
     printf("After heapify %d\n", data[1]);
-    addToHeap(16, lastIdx);
+    addToHeap(16, lastIdx);  lastIdx++;
     printf("After addToHeap %d\n", data[1]);
-    //removeRoot();
+    removeRoot(lastIdx); lastIdx--;
+    for (int i = 0; i <= lastIdx; i++)
+    {
+        printf("%d ", data[i]);
+    }
+    printf("\n");
+    
     return 0;
 }

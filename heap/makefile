@@ -4,7 +4,7 @@ BIN_DIR=${PROJ_DIR}/bin
 INC_DIR=${PROJ_DIR}/include
 SRC_DIR=${PROJ_DIR}/src
 
-OBJS=${BUILD_DIR}/main.o ${BUILD_DIR}/heapify.o ${BUILD_DIR}/findLoc.o ${BUILD_DIR}/swap.o ${BUILD_DIR}/addToHeap.o
+OBJS=${BUILD_DIR}/main.o ${BUILD_DIR}/heapify.o ${BUILD_DIR}/findLoc.o ${BUILD_DIR}/swap.o ${BUILD_DIR}/addToHeap.o ${BUILD_DIR}/removeRoot.o
 
 all: ${BIN_DIR}/ExeHeap
 ${BIN_DIR}/ExeHeap: ${OBJS}
